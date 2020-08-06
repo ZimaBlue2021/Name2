@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Khb-Cv-Y1t">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Erick_P_NavigationControllerExercise1st_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.35635107030000002" green="0.11419693089999999" blue="0.71892845809999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wjs-Ni-QVP"/>
+                    <connections>
+                        <segue destination="TYh-t8-gda" kind="show" identifier="screen1" id="LWt-A2-Rb2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1068.1159420289855" y="-451.33928571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PJx-1M-j2X">
+            <objects>
+                <viewController id="TYh-t8-gda" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RdI-S5-1qv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spaceBaguette.png" translatesAutoresizingMaskIntoConstraints="NO" id="nfE-CQ-KHK">
+                                <rect key="frame" x="0.0" y="88" width="414" height="709"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13847657119057233" green="1" blue="0.78103614999067739" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="nfE-CQ-KHK" firstAttribute="top" secondItem="JTm-rk-ylB" secondAttribute="top" id="3n4-52-KTK"/>
+                            <constraint firstItem="nfE-CQ-KHK" firstAttribute="leading" secondItem="JTm-rk-ylB" secondAttribute="leading" id="9ZN-LC-gVy"/>
+                            <constraint firstItem="nfE-CQ-KHK" firstAttribute="leading" secondItem="JTm-rk-ylB" secondAttribute="leading" id="Cya-b0-rRy"/>
+                            <constraint firstItem="nfE-CQ-KHK" firstAttribute="top" secondItem="JTm-rk-ylB" secondAttribute="top" id="VPv-AK-YcB"/>
+                            <constraint firstItem="JTm-rk-ylB" firstAttribute="trailing" secondItem="nfE-CQ-KHK" secondAttribute="trailing" id="j7b-8r-1bD"/>
+                            <constraint firstItem="nfE-CQ-KHK" firstAttribute="trailing" secondItem="JTm-rk-ylB" secondAttribute="trailing" id="qsq-KV-DFi"/>
+                            <constraint firstItem="JTm-rk-ylB" firstAttribute="bottom" secondItem="nfE-CQ-KHK" secondAttribute="bottom" constant="65" id="wKQ-SO-H19"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JTm-rk-ylB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="88o-0D-kKY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TRi-dZ-iLf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-217.39130434782609" y="-446.65178571428567"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oXX-tl-E39">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Khb-Cv-Y1t" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="j9j-Ea-gLF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="COL-xD-StV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="naP-yq-ck4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1929" y="-451"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="spaceBaguette.png" width="1276" height="709"/>
+    </resources>
+</document>
