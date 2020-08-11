@@ -25,6 +25,9 @@
                                 <state key="normal" title="Save">
                                     <color key="titleColor" red="0.1091504098" green="0.89123573590000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="mySaveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZLj-4A-CHd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3It-ty-RCv">
                                 <rect key="frame" x="190" y="44" width="34" height="30"/>
@@ -32,6 +35,9 @@
                                 <state key="normal" title="Load">
                                     <color key="titleColor" red="0.1091504098" green="0.89123573590000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="Load:" destination="BYZ-38-t0r" eventType="touchUpInside" id="scz-UW-gPC"/>
+                                </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="nf8-IY-LLg">
                                 <rect key="frame" x="148" y="514" width="118" height="30"/>
@@ -58,7 +64,7 @@
                                     <color key="titleColor" red="0.1091504098" green="0.89123573590000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="Delete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HWk-gR-Wb5"/>
+                                    <action selector="Delete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nxm-zc-nY8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -66,10 +72,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="mySaveButton" destination="1hc-LX-qxs" id="dzC-gc-vQK"/>
-                        <outlet property="mySlider" destination="nf8-IY-LLg" id="aYJ-Nw-RcQ"/>
-                        <outlet property="mySwitch" destination="Et9-BQ-zpx" id="tA9-Zc-Cr4"/>
-                        <outlet property="myText" destination="cwq-H4-xwc" id="zew-1G-J74"/>
+                        <outlet property="mySlider" destination="nf8-IY-LLg" id="Gf1-TG-FFd"/>
+                        <outlet property="mySwitch" destination="Et9-BQ-zpx" id="Jnm-uR-ZFA"/>
+                        <outlet property="myText" destination="cwq-H4-xwc" id="6gh-hT-fld"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
