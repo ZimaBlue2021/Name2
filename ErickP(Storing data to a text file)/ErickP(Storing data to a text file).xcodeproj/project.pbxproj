@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C27A44CA24E2EE8A002115E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A44C924E2EE8A002115E0 /* AppDelegate.swift */; };
+		C27A44CC24E2EE8A002115E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A44CB24E2EE8A002115E0 /* SceneDelegate.swift */; };
+		C27A44CE24E2EE8A002115E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A44CD24E2EE8A002115E0 /* ViewController.swift */; };
+		C27A44D124E2EE8A002115E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27A44CF24E2EE8A002115E0 /* Main.storyboard */; };
+		C27A44D324E2EE8C002115E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27A44D224E2EE8C002115E0 /* Assets.xcassets */; };
+		C27A44D624E2EE8C002115E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27A44D424E2EE8C002115E0 /* LaunchScreen.storyboard */; };
+		C27A44E124E2EE8C002115E0 /* ErickP_Storing_data_to_a_text_file_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A44E024E2EE8C002115E0 /* ErickP_Storing_data_to_a_text_file_Tests.swift */; };
+		C27A44EC24E2EE8C002115E0 /* ErickP_Storing_data_to_a_text_file_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A44EB24E2EE8C002115E0 /* ErickP_Storing_data_to_a_text_file_UITests.swift */; };
+		C27A44FA24E2EFDB002115E0 /* Giraffe.png in Resources */ = {isa = PBXBuildFile; fileRef = C27A44F924E2EFDB002115E0 /* Giraffe.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C27A44DD24E2EE8C002115E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27A44BE24E2EE8A002115E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27A44C524E2EE8A002115E0;
+			remoteInfo = "ErickP(Storing data to a text file)";
+		};
+		C27A44E824E2EE8C002115E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27A44BE24E2EE8A002115E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27A44C524E2EE8A002115E0;
+			remoteInfo = "ErickP(Storing data to a text file)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C27A44C624E2EE8A002115E0 /* ErickP(Storing data to a text file).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ErickP(Storing data to a text file).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27A44C924E2EE8A002115E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C27A44CB24E2EE8A002115E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C27A44CD24E2EE8A002115E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C27A44D024E2EE8A002115E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C27A44D224E2EE8C002115E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C27A44D524E2EE8C002115E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C27A44D724E2EE8C002115E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27A44DC24E2EE8C002115E0 /* ErickP(Storing data to a text file)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ErickP(Storing data to a text file)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27A44E024E2EE8C002115E0 /* ErickP_Storing_data_to_a_text_file_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErickP_Storing_data_to_a_text_file_Tests.swift; sourceTree = "<group>"; };
+		C27A44E224E2EE8C002115E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27A44E724E2EE8C002115E0 /* ErickP(Storing data to a text file)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ErickP(Storing data to a text file)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27A44EB24E2EE8C002115E0 /* ErickP_Storing_data_to_a_text_file_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErickP_Storing_data_to_a_text_file_UITests.swift; sourceTree = "<group>"; };
+		C27A44ED24E2EE8C002115E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27A44F924E2EFDB002115E0 /* Giraffe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Giraffe.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C27A44C324E2EE8A002115E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A44D924E2EE8C002115E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A44E424E2EE8C002115E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C27A44BD24E2EE8A002115E0 = {
+			isa = PBXGroup;
+			children = (
+				C27A44C824E2EE8A002115E0 /* ErickP(Storing data to a text file) */,
+				C27A44DF24E2EE8C002115E0 /* ErickP(Storing data to a text file)Tests */,
+				C27A44EA24E2EE8C002115E0 /* ErickP(Storing data to a text file)UITests */,
+				C27A44C724E2EE8A002115E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C27A44C724E2EE8A002115E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C27A44C624E2EE8A002115E0 /* ErickP(Storing data to a text file).app */,
+				C27A44DC24E2EE8C002115E0 /* ErickP(Storing data to a text file)Tests.xctest */,
+				C27A44E724E2EE8C002115E0 /* ErickP(Storing data to a text file)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C27A44C824E2EE8A002115E0 /* ErickP(Storing data to a text file) */ = {
+			isa = PBXGroup;
+			children = (
+				C27A44C924E2EE8A002115E0 /* AppDelegate.swift */,
+				C27A44CB24E2EE8A002115E0 /* SceneDelegate.swift */,
+				C27A44CD24E2EE8A002115E0 /* ViewController.swift */,
+				C27A44CF24E2EE8A002115E0 /* Main.storyboard */,
+				C27A44F924E2EFDB002115E0 /* Giraffe.png */,
+				C27A44D224E2EE8C002115E0 /* Assets.xcassets */,
+				C27A44D424E2EE8C002115E0 /* LaunchScreen.storyboard */,
+				C27A44D724E2EE8C002115E0 /* Info.plist */,
+			);
+			path = "ErickP(Storing data to a text file)";
+			sourceTree = "<group>";
+		};
+		C27A44DF24E2EE8C002115E0 /* ErickP(Storing data to a text file)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C27A44E024E2EE8C002115E0 /* ErickP_Storing_data_to_a_text_file_Tests.swift */,
+				C27A44E224E2EE8C002115E0 /* Info.plist */,
+			);
+			path = "ErickP(Storing data to a text file)Tests";
+			sourceTree = "<group>";
+		};
+		C27A44EA24E2EE8C002115E0 /* ErickP(Storing data to a text file)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C27A44EB24E2EE8C002115E0 /* ErickP_Storing_data_to_a_text_file_UITests.swift */,
+				C27A44ED24E2EE8C002115E0 /* Info.plist */,
+			);
+			path = "ErickP(Storing data to a text file)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C27A44C524E2EE8A002115E0 /* ErickP(Storing data to a text file) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27A44F024E2EE8C002115E0 /* Build configuration list for PBXNativeTarget "ErickP(Storing data to a text file)" */;
+			buildPhases = (
+				C27A44C224E2EE8A002115E0 /* Sources */,
+				C27A44C324E2EE8A002115E0 /* Frameworks */,
+				C27A44C424E2EE8A002115E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ErickP(Storing data to a text file)";
+			productName = "ErickP(Storing data to a text file)";
+			productReference = C27A44C624E2EE8A002115E0 /* ErickP(Storing data to a text file).app */;
+			productType = "com.apple.product-type.application";
+		};
+		C27A44DB24E2EE8C002115E0 /* ErickP(Storing data to a text file)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27A44F324E2EE8C002115E0 /* Build configuration list for PBXNativeTarget "ErickP(Storing data to a text file)Tests" */;
+			buildPhases = (
+				C27A44D824E2EE8C002115E0 /* Sources */,
+				C27A44D924E2EE8C002115E0 /* Frameworks */,
+				C27A44DA24E2EE8C002115E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27A44DE24E2EE8C002115E0 /* PBXTargetDependency */,
+			);
+			name = "ErickP(Storing data to a text file)Tests";
+			productName = "ErickP(Storing data to a text file)Tests";
+			productReference = C27A44DC24E2EE8C002115E0 /* ErickP(Storing data to a text file)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C27A44E624E2EE8C002115E0 /* ErickP(Storing data to a text file)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27A44F624E2EE8C002115E0 /* Build configuration list for PBXNativeTarget "ErickP(Storing data to a text file)UITests" */;
+			buildPhases = (
+				C27A44E324E2EE8C002115E0 /* Sources */,
+				C27A44E424E2EE8C002115E0 /* Frameworks */,
+				C27A44E524E2EE8C002115E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27A44E924E2EE8C002115E0 /* PBXTargetDependency */,
+			);
+			name = "ErickP(Storing data to a text file)UITests";
+			productName = "ErickP(Storing data to a text file)UITests";
+			productReference = C27A44E724E2EE8C002115E0 /* ErickP(Storing data to a text file)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C27A44BE24E2EE8A002115E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Erick P";
+				TargetAttributes = {
+					C27A44C524E2EE8A002115E0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C27A44DB24E2EE8C002115E0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C27A44C524E2EE8A002115E0;
+					};
+					C27A44E624E2EE8C002115E0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C27A44C524E2EE8A002115E0;
+					};
+				};
+			};
+			buildConfigurationList = C27A44C124E2EE8A002115E0 /* Build configuration list for PBXProject "ErickP(Storing data to a text file)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C27A44BD24E2EE8A002115E0;
+			productRefGroup = C27A44C724E2EE8A002115E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C27A44C524E2EE8A002115E0 /* ErickP(Storing data to a text file) */,
+				C27A44DB24E2EE8C002115E0 /* ErickP(Storing data to a text file)Tests */,
+				C27A44E624E2EE8C002115E0 /* ErickP(Storing data to a text file)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C27A44C424E2EE8A002115E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A44D624E2EE8C002115E0 /* LaunchScreen.storyboard in Resources */,
+				C27A44D324E2EE8C002115E0 /* Assets.xcassets in Resources */,
+				C27A44FA24E2EFDB002115E0 /* Giraffe.png in Resources */,
+				C27A44D124E2EE8A002115E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A44DA24E2EE8C002115E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A44E524E2EE8C002115E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C27A44C224E2EE8A002115E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A44CE24E2EE8A002115E0 /* ViewController.swift in Sources */,
+				C27A44CA24E2EE8A002115E0 /* AppDelegate.swift in Sources */,
+				C27A44CC24E2EE8A002115E0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A44D824E2EE8C002115E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A44E124E2EE8C002115E0 /* ErickP_Storing_data_to_a_text_file_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A44E324E2EE8C002115E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A44EC24E2EE8C002115E0 /* ErickP_Storing_data_to_a_text_file_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C27A44DE24E2EE8C002115E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27A44C524E2EE8A002115E0 /* ErickP(Storing data to a text file) */;
+			targetProxy = C27A44DD24E2EE8C002115E0 /* PBXContainerItemProxy */;
+		};
+		C27A44E924E2EE8C002115E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27A44C524E2EE8A002115E0 /* ErickP(Storing data to a text file) */;
+			targetProxy = C27A44E824E2EE8C002115E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C27A44CF24E2EE8A002115E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C27A44D024E2EE8A002115E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C27A44D424E2EE8C002115E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C27A44D524E2EE8C002115E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C27A44EE24E2EE8C002115E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C27A44EF24E2EE8C002115E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C27A44F124E2EE8C002115E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(Storing data to a text file)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-Storing-data-to-a-text-file-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C27A44F224E2EE8C002115E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(Storing data to a text file)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-Storing-data-to-a-text-file-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C27A44F424E2EE8C002115E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(Storing data to a text file)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-Storing-data-to-a-text-file-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ErickP(Storing data to a text file).app/ErickP(Storing data to a text file)";
+			};
+			name = Debug;
+		};
+		C27A44F524E2EE8C002115E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(Storing data to a text file)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-Storing-data-to-a-text-file-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ErickP(Storing data to a text file).app/ErickP(Storing data to a text file)";
+			};
+			name = Release;
+		};
+		C27A44F724E2EE8C002115E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(Storing data to a text file)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-Storing-data-to-a-text-file-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ErickP(Storing data to a text file)";
+			};
+			name = Debug;
+		};
+		C27A44F824E2EE8C002115E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(Storing data to a text file)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-Storing-data-to-a-text-file-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ErickP(Storing data to a text file)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C27A44C124E2EE8A002115E0 /* Build configuration list for PBXProject "ErickP(Storing data to a text file)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A44EE24E2EE8C002115E0 /* Debug */,
+				C27A44EF24E2EE8C002115E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27A44F024E2EE8C002115E0 /* Build configuration list for PBXNativeTarget "ErickP(Storing data to a text file)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A44F124E2EE8C002115E0 /* Debug */,
+				C27A44F224E2EE8C002115E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27A44F324E2EE8C002115E0 /* Build configuration list for PBXNativeTarget "ErickP(Storing data to a text file)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A44F424E2EE8C002115E0 /* Debug */,
+				C27A44F524E2EE8C002115E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27A44F624E2EE8C002115E0 /* Build configuration list for PBXNativeTarget "ErickP(Storing data to a text file)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A44F724E2EE8C002115E0 /* Debug */,
+				C27A44F824E2EE8C002115E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C27A44BE24E2EE8A002115E0 /* Project object */;
+}
