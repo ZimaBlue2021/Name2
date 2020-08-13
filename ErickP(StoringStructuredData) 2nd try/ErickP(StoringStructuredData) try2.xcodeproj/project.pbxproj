@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C260625724E4CE3900A954F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C260625624E4CE3900A954F0 /* AppDelegate.swift */; };
+		C260625924E4CE3900A954F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C260625824E4CE3900A954F0 /* SceneDelegate.swift */; };
+		C260625B24E4CE3900A954F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C260625A24E4CE3900A954F0 /* ViewController.swift */; };
+		C260625E24E4CE3900A954F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C260625C24E4CE3900A954F0 /* Main.storyboard */; };
+		C260626124E4CE3A00A954F0 /* ErickP_StoringStructuredData__try2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C260625F24E4CE3900A954F0 /* ErickP_StoringStructuredData__try2.xcdatamodeld */; };
+		C260626324E4CE3B00A954F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C260626224E4CE3B00A954F0 /* Assets.xcassets */; };
+		C260626624E4CE3B00A954F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C260626424E4CE3B00A954F0 /* LaunchScreen.storyboard */; };
+		C260627124E4CE3B00A954F0 /* ErickP_StoringStructuredData__try2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C260627024E4CE3B00A954F0 /* ErickP_StoringStructuredData__try2Tests.swift */; };
+		C260627C24E4CE3B00A954F0 /* ErickP_StoringStructuredData__try2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C260627B24E4CE3B00A954F0 /* ErickP_StoringStructuredData__try2UITests.swift */; };
+		C260628A24E4CEC700A954F0 /* WhaleChibi.png in Resources */ = {isa = PBXBuildFile; fileRef = C260628924E4CEC700A954F0 /* WhaleChibi.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C260626D24E4CE3B00A954F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C260624B24E4CE3900A954F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C260625224E4CE3900A954F0;
+			remoteInfo = "ErickP(StoringStructuredData) try2";
+		};
+		C260627824E4CE3B00A954F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C260624B24E4CE3900A954F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C260625224E4CE3900A954F0;
+			remoteInfo = "ErickP(StoringStructuredData) try2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C260625324E4CE3900A954F0 /* ErickP(StoringStructuredData) try2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ErickP(StoringStructuredData) try2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C260625624E4CE3900A954F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C260625824E4CE3900A954F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C260625A24E4CE3900A954F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C260625D24E4CE3900A954F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C260626024E4CE3A00A954F0 /* ErickP_StoringStructuredData__try2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ErickP_StoringStructuredData__try2.xcdatamodel; sourceTree = "<group>"; };
+		C260626224E4CE3B00A954F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C260626524E4CE3B00A954F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C260626724E4CE3B00A954F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C260626C24E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ErickP(StoringStructuredData) try2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C260627024E4CE3B00A954F0 /* ErickP_StoringStructuredData__try2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErickP_StoringStructuredData__try2Tests.swift; sourceTree = "<group>"; };
+		C260627224E4CE3B00A954F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C260627724E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ErickP(StoringStructuredData) try2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C260627B24E4CE3B00A954F0 /* ErickP_StoringStructuredData__try2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErickP_StoringStructuredData__try2UITests.swift; sourceTree = "<group>"; };
+		C260627D24E4CE3B00A954F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C260628924E4CEC700A954F0 /* WhaleChibi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleChibi.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C260625024E4CE3900A954F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C260626924E4CE3B00A954F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C260627424E4CE3B00A954F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C260624A24E4CE3900A954F0 = {
+			isa = PBXGroup;
+			children = (
+				C260625524E4CE3900A954F0 /* ErickP(StoringStructuredData) try2 */,
+				C260626F24E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2Tests */,
+				C260627A24E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2UITests */,
+				C260625424E4CE3900A954F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C260625424E4CE3900A954F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C260625324E4CE3900A954F0 /* ErickP(StoringStructuredData) try2.app */,
+				C260626C24E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2Tests.xctest */,
+				C260627724E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C260625524E4CE3900A954F0 /* ErickP(StoringStructuredData) try2 */ = {
+			isa = PBXGroup;
+			children = (
+				C260625624E4CE3900A954F0 /* AppDelegate.swift */,
+				C260625824E4CE3900A954F0 /* SceneDelegate.swift */,
+				C260625A24E4CE3900A954F0 /* ViewController.swift */,
+				C260625C24E4CE3900A954F0 /* Main.storyboard */,
+				C260628924E4CEC700A954F0 /* WhaleChibi.png */,
+				C260626224E4CE3B00A954F0 /* Assets.xcassets */,
+				C260626424E4CE3B00A954F0 /* LaunchScreen.storyboard */,
+				C260626724E4CE3B00A954F0 /* Info.plist */,
+				C260625F24E4CE3900A954F0 /* ErickP_StoringStructuredData__try2.xcdatamodeld */,
+			);
+			path = "ErickP(StoringStructuredData) try2";
+			sourceTree = "<group>";
+		};
+		C260626F24E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C260627024E4CE3B00A954F0 /* ErickP_StoringStructuredData__try2Tests.swift */,
+				C260627224E4CE3B00A954F0 /* Info.plist */,
+			);
+			path = "ErickP(StoringStructuredData) try2Tests";
+			sourceTree = "<group>";
+		};
+		C260627A24E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C260627B24E4CE3B00A954F0 /* ErickP_StoringStructuredData__try2UITests.swift */,
+				C260627D24E4CE3B00A954F0 /* Info.plist */,
+			);
+			path = "ErickP(StoringStructuredData) try2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C260625224E4CE3900A954F0 /* ErickP(StoringStructuredData) try2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C260628024E4CE3B00A954F0 /* Build configuration list for PBXNativeTarget "ErickP(StoringStructuredData) try2" */;
+			buildPhases = (
+				C260624F24E4CE3900A954F0 /* Sources */,
+				C260625024E4CE3900A954F0 /* Frameworks */,
+				C260625124E4CE3900A954F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ErickP(StoringStructuredData) try2";
+			productName = "ErickP(StoringStructuredData) try2";
+			productReference = C260625324E4CE3900A954F0 /* ErickP(StoringStructuredData) try2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C260626B24E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C260628324E4CE3B00A954F0 /* Build configuration list for PBXNativeTarget "ErickP(StoringStructuredData) try2Tests" */;
+			buildPhases = (
+				C260626824E4CE3B00A954F0 /* Sources */,
+				C260626924E4CE3B00A954F0 /* Frameworks */,
+				C260626A24E4CE3B00A954F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C260626E24E4CE3B00A954F0 /* PBXTargetDependency */,
+			);
+			name = "ErickP(StoringStructuredData) try2Tests";
+			productName = "ErickP(StoringStructuredData) try2Tests";
+			productReference = C260626C24E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C260627624E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C260628624E4CE3B00A954F0 /* Build configuration list for PBXNativeTarget "ErickP(StoringStructuredData) try2UITests" */;
+			buildPhases = (
+				C260627324E4CE3B00A954F0 /* Sources */,
+				C260627424E4CE3B00A954F0 /* Frameworks */,
+				C260627524E4CE3B00A954F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C260627924E4CE3B00A954F0 /* PBXTargetDependency */,
+			);
+			name = "ErickP(StoringStructuredData) try2UITests";
+			productName = "ErickP(StoringStructuredData) try2UITests";
+			productReference = C260627724E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C260624B24E4CE3900A954F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Erick P";
+				TargetAttributes = {
+					C260625224E4CE3900A954F0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C260626B24E4CE3B00A954F0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C260625224E4CE3900A954F0;
+					};
+					C260627624E4CE3B00A954F0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C260625224E4CE3900A954F0;
+					};
+				};
+			};
+			buildConfigurationList = C260624E24E4CE3900A954F0 /* Build configuration list for PBXProject "ErickP(StoringStructuredData) try2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C260624A24E4CE3900A954F0;
+			productRefGroup = C260625424E4CE3900A954F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C260625224E4CE3900A954F0 /* ErickP(StoringStructuredData) try2 */,
+				C260626B24E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2Tests */,
+				C260627624E4CE3B00A954F0 /* ErickP(StoringStructuredData) try2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C260625124E4CE3900A954F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C260626624E4CE3B00A954F0 /* LaunchScreen.storyboard in Resources */,
+				C260628A24E4CEC700A954F0 /* WhaleChibi.png in Resources */,
+				C260626324E4CE3B00A954F0 /* Assets.xcassets in Resources */,
+				C260625E24E4CE3900A954F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C260626A24E4CE3B00A954F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C260627524E4CE3B00A954F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C260624F24E4CE3900A954F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C260626124E4CE3A00A954F0 /* ErickP_StoringStructuredData__try2.xcdatamodeld in Sources */,
+				C260625B24E4CE3900A954F0 /* ViewController.swift in Sources */,
+				C260625724E4CE3900A954F0 /* AppDelegate.swift in Sources */,
+				C260625924E4CE3900A954F0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C260626824E4CE3B00A954F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C260627124E4CE3B00A954F0 /* ErickP_StoringStructuredData__try2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C260627324E4CE3B00A954F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C260627C24E4CE3B00A954F0 /* ErickP_StoringStructuredData__try2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C260626E24E4CE3B00A954F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C260625224E4CE3900A954F0 /* ErickP(StoringStructuredData) try2 */;
+			targetProxy = C260626D24E4CE3B00A954F0 /* PBXContainerItemProxy */;
+		};
+		C260627924E4CE3B00A954F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C260625224E4CE3900A954F0 /* ErickP(StoringStructuredData) try2 */;
+			targetProxy = C260627824E4CE3B00A954F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C260625C24E4CE3900A954F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C260625D24E4CE3900A954F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C260626424E4CE3B00A954F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C260626524E4CE3B00A954F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C260627E24E4CE3B00A954F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C260627F24E4CE3B00A954F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C260628124E4CE3B00A954F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(StoringStructuredData) try2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-StoringStructuredData--try2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C260628224E4CE3B00A954F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(StoringStructuredData) try2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-StoringStructuredData--try2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C260628424E4CE3B00A954F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(StoringStructuredData) try2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-StoringStructuredData--try2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ErickP(StoringStructuredData) try2.app/ErickP(StoringStructuredData) try2";
+			};
+			name = Debug;
+		};
+		C260628524E4CE3B00A954F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(StoringStructuredData) try2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-StoringStructuredData--try2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ErickP(StoringStructuredData) try2.app/ErickP(StoringStructuredData) try2";
+			};
+			name = Release;
+		};
+		C260628724E4CE3B00A954F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(StoringStructuredData) try2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-StoringStructuredData--try2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ErickP(StoringStructuredData) try2";
+			};
+			name = Debug;
+		};
+		C260628824E4CE3B00A954F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(StoringStructuredData) try2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-StoringStructuredData--try2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ErickP(StoringStructuredData) try2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C260624E24E4CE3900A954F0 /* Build configuration list for PBXProject "ErickP(StoringStructuredData) try2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C260627E24E4CE3B00A954F0 /* Debug */,
+				C260627F24E4CE3B00A954F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C260628024E4CE3B00A954F0 /* Build configuration list for PBXNativeTarget "ErickP(StoringStructuredData) try2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C260628124E4CE3B00A954F0 /* Debug */,
+				C260628224E4CE3B00A954F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C260628324E4CE3B00A954F0 /* Build configuration list for PBXNativeTarget "ErickP(StoringStructuredData) try2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C260628424E4CE3B00A954F0 /* Debug */,
+				C260628524E4CE3B00A954F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C260628624E4CE3B00A954F0 /* Build configuration list for PBXNativeTarget "ErickP(StoringStructuredData) try2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C260628724E4CE3B00A954F0 /* Debug */,
+				C260628824E4CE3B00A954F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C260625F24E4CE3900A954F0 /* ErickP_StoringStructuredData__try2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C260626024E4CE3A00A954F0 /* ErickP_StoringStructuredData__try2.xcdatamodel */,
+			);
+			currentVersion = C260626024E4CE3A00A954F0 /* ErickP_StoringStructuredData__try2.xcdatamodel */;
+			path = ErickP_StoringStructuredData__try2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C260624B24E4CE3900A954F0 /* Project object */;
+}
