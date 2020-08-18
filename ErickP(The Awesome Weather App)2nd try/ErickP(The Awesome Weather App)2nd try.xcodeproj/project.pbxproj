@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C25BB5E524E59EE7006542BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25BB5E424E59EE7006542BB /* AppDelegate.swift */; };
+		C25BB5E724E59EE7006542BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25BB5E624E59EE7006542BB /* ViewController.swift */; };
+		C25BB5EA24E59EE7006542BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25BB5E824E59EE7006542BB /* Main.storyboard */; };
+		C25BB5ED24E59EE7006542BB /* ErickP_The_Awesome_Weather_App_2nd_try.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C25BB5EB24E59EE7006542BB /* ErickP_The_Awesome_Weather_App_2nd_try.xcdatamodeld */; };
+		C25BB5EF24E59EE8006542BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25BB5EE24E59EE8006542BB /* Assets.xcassets */; };
+		C25BB5F224E59EE8006542BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25BB5F024E59EE8006542BB /* LaunchScreen.storyboard */; };
+		C25BB5FD24E59EE8006542BB /* ErickP_The_Awesome_Weather_App_2nd_tryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25BB5FC24E59EE8006542BB /* ErickP_The_Awesome_Weather_App_2nd_tryTests.swift */; };
+		C25BB60824E59EE8006542BB /* ErickP_The_Awesome_Weather_App_2nd_tryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25BB60724E59EE8006542BB /* ErickP_The_Awesome_Weather_App_2nd_tryUITests.swift */; };
+		C25BB61624E59F13006542BB /* weather-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C25BB61524E59F13006542BB /* weather-icon.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C25BB5F924E59EE8006542BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25BB5D924E59EE7006542BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25BB5E024E59EE7006542BB;
+			remoteInfo = "ErickP(The Awesome Weather App)2nd try";
+		};
+		C25BB60424E59EE8006542BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25BB5D924E59EE7006542BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25BB5E024E59EE7006542BB;
+			remoteInfo = "ErickP(The Awesome Weather App)2nd try";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C25BB5E124E59EE7006542BB /* ErickP(The Awesome Weather App)2nd try.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ErickP(The Awesome Weather App)2nd try.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25BB5E424E59EE7006542BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C25BB5E624E59EE7006542BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C25BB5E924E59EE7006542BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C25BB5EC24E59EE7006542BB /* ErickP_The_Awesome_Weather_App_2nd_try.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ErickP_The_Awesome_Weather_App_2nd_try.xcdatamodel; sourceTree = "<group>"; };
+		C25BB5EE24E59EE8006542BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C25BB5F124E59EE8006542BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C25BB5F324E59EE8006542BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25BB5F824E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ErickP(The Awesome Weather App)2nd tryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25BB5FC24E59EE8006542BB /* ErickP_The_Awesome_Weather_App_2nd_tryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErickP_The_Awesome_Weather_App_2nd_tryTests.swift; sourceTree = "<group>"; };
+		C25BB5FE24E59EE8006542BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25BB60324E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ErickP(The Awesome Weather App)2nd tryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25BB60724E59EE8006542BB /* ErickP_The_Awesome_Weather_App_2nd_tryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErickP_The_Awesome_Weather_App_2nd_tryUITests.swift; sourceTree = "<group>"; };
+		C25BB60924E59EE8006542BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25BB61524E59F13006542BB /* weather-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "weather-icon.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C25BB5DE24E59EE7006542BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25BB5F524E59EE8006542BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25BB60024E59EE8006542BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C25BB5D824E59EE7006542BB = {
+			isa = PBXGroup;
+			children = (
+				C25BB5E324E59EE7006542BB /* ErickP(The Awesome Weather App)2nd try */,
+				C25BB5FB24E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryTests */,
+				C25BB60624E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryUITests */,
+				C25BB5E224E59EE7006542BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C25BB5E224E59EE7006542BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25BB5E124E59EE7006542BB /* ErickP(The Awesome Weather App)2nd try.app */,
+				C25BB5F824E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryTests.xctest */,
+				C25BB60324E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C25BB5E324E59EE7006542BB /* ErickP(The Awesome Weather App)2nd try */ = {
+			isa = PBXGroup;
+			children = (
+				C25BB5E424E59EE7006542BB /* AppDelegate.swift */,
+				C25BB5E624E59EE7006542BB /* ViewController.swift */,
+				C25BB5E824E59EE7006542BB /* Main.storyboard */,
+				C25BB61524E59F13006542BB /* weather-icon.jpg */,
+				C25BB5EE24E59EE8006542BB /* Assets.xcassets */,
+				C25BB5F024E59EE8006542BB /* LaunchScreen.storyboard */,
+				C25BB5F324E59EE8006542BB /* Info.plist */,
+				C25BB5EB24E59EE7006542BB /* ErickP_The_Awesome_Weather_App_2nd_try.xcdatamodeld */,
+			);
+			path = "ErickP(The Awesome Weather App)2nd try";
+			sourceTree = "<group>";
+		};
+		C25BB5FB24E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C25BB5FC24E59EE8006542BB /* ErickP_The_Awesome_Weather_App_2nd_tryTests.swift */,
+				C25BB5FE24E59EE8006542BB /* Info.plist */,
+			);
+			path = "ErickP(The Awesome Weather App)2nd tryTests";
+			sourceTree = "<group>";
+		};
+		C25BB60624E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C25BB60724E59EE8006542BB /* ErickP_The_Awesome_Weather_App_2nd_tryUITests.swift */,
+				C25BB60924E59EE8006542BB /* Info.plist */,
+			);
+			path = "ErickP(The Awesome Weather App)2nd tryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C25BB5E024E59EE7006542BB /* ErickP(The Awesome Weather App)2nd try */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25BB60C24E59EE8006542BB /* Build configuration list for PBXNativeTarget "ErickP(The Awesome Weather App)2nd try" */;
+			buildPhases = (
+				C25BB5DD24E59EE7006542BB /* Sources */,
+				C25BB5DE24E59EE7006542BB /* Frameworks */,
+				C25BB5DF24E59EE7006542BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ErickP(The Awesome Weather App)2nd try";
+			productName = "ErickP(The Awesome Weather App)2nd try";
+			productReference = C25BB5E124E59EE7006542BB /* ErickP(The Awesome Weather App)2nd try.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C25BB5F724E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25BB60F24E59EE8006542BB /* Build configuration list for PBXNativeTarget "ErickP(The Awesome Weather App)2nd tryTests" */;
+			buildPhases = (
+				C25BB5F424E59EE8006542BB /* Sources */,
+				C25BB5F524E59EE8006542BB /* Frameworks */,
+				C25BB5F624E59EE8006542BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25BB5FA24E59EE8006542BB /* PBXTargetDependency */,
+			);
+			name = "ErickP(The Awesome Weather App)2nd tryTests";
+			productName = "ErickP(The Awesome Weather App)2nd tryTests";
+			productReference = C25BB5F824E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C25BB60224E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25BB61224E59EE8006542BB /* Build configuration list for PBXNativeTarget "ErickP(The Awesome Weather App)2nd tryUITests" */;
+			buildPhases = (
+				C25BB5FF24E59EE8006542BB /* Sources */,
+				C25BB60024E59EE8006542BB /* Frameworks */,
+				C25BB60124E59EE8006542BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25BB60524E59EE8006542BB /* PBXTargetDependency */,
+			);
+			name = "ErickP(The Awesome Weather App)2nd tryUITests";
+			productName = "ErickP(The Awesome Weather App)2nd tryUITests";
+			productReference = C25BB60324E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C25BB5D924E59EE7006542BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Erick P";
+				TargetAttributes = {
+					C25BB5E024E59EE7006542BB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C25BB5F724E59EE8006542BB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C25BB5E024E59EE7006542BB;
+					};
+					C25BB60224E59EE8006542BB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C25BB5E024E59EE7006542BB;
+					};
+				};
+			};
+			buildConfigurationList = C25BB5DC24E59EE7006542BB /* Build configuration list for PBXProject "ErickP(The Awesome Weather App)2nd try" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C25BB5D824E59EE7006542BB;
+			productRefGroup = C25BB5E224E59EE7006542BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C25BB5E024E59EE7006542BB /* ErickP(The Awesome Weather App)2nd try */,
+				C25BB5F724E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryTests */,
+				C25BB60224E59EE8006542BB /* ErickP(The Awesome Weather App)2nd tryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C25BB5DF24E59EE7006542BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25BB5F224E59EE8006542BB /* LaunchScreen.storyboard in Resources */,
+				C25BB61624E59F13006542BB /* weather-icon.jpg in Resources */,
+				C25BB5EF24E59EE8006542BB /* Assets.xcassets in Resources */,
+				C25BB5EA24E59EE7006542BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25BB5F624E59EE8006542BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25BB60124E59EE8006542BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C25BB5DD24E59EE7006542BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25BB5ED24E59EE7006542BB /* ErickP_The_Awesome_Weather_App_2nd_try.xcdatamodeld in Sources */,
+				C25BB5E724E59EE7006542BB /* ViewController.swift in Sources */,
+				C25BB5E524E59EE7006542BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25BB5F424E59EE8006542BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25BB5FD24E59EE8006542BB /* ErickP_The_Awesome_Weather_App_2nd_tryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25BB5FF24E59EE8006542BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25BB60824E59EE8006542BB /* ErickP_The_Awesome_Weather_App_2nd_tryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C25BB5FA24E59EE8006542BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25BB5E024E59EE7006542BB /* ErickP(The Awesome Weather App)2nd try */;
+			targetProxy = C25BB5F924E59EE8006542BB /* PBXContainerItemProxy */;
+		};
+		C25BB60524E59EE8006542BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25BB5E024E59EE7006542BB /* ErickP(The Awesome Weather App)2nd try */;
+			targetProxy = C25BB60424E59EE8006542BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C25BB5E824E59EE7006542BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25BB5E924E59EE7006542BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C25BB5F024E59EE8006542BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25BB5F124E59EE8006542BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C25BB60A24E59EE8006542BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		C25BB60B24E59EE8006542BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C25BB60D24E59EE8006542BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(The Awesome Weather App)2nd try/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-The-Awesome-Weather-App-2nd-try";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		C25BB60E24E59EE8006542BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(The Awesome Weather App)2nd try/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-The-Awesome-Weather-App-2nd-try";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		C25BB61024E59EE8006542BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(The Awesome Weather App)2nd tryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-The-Awesome-Weather-App-2nd-tryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ErickP(The Awesome Weather App)2nd try.app/ErickP(The Awesome Weather App)2nd try";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		C25BB61124E59EE8006542BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(The Awesome Weather App)2nd tryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-The-Awesome-Weather-App-2nd-tryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ErickP(The Awesome Weather App)2nd try.app/ErickP(The Awesome Weather App)2nd try";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Release;
+		};
+		C25BB61324E59EE8006542BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(The Awesome Weather App)2nd tryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-The-Awesome-Weather-App-2nd-tryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "ErickP(The Awesome Weather App)2nd try";
+			};
+			name = Debug;
+		};
+		C25BB61424E59EE8006542BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ErickP(The Awesome Weather App)2nd tryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-04.ErickP-The-Awesome-Weather-App-2nd-tryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "ErickP(The Awesome Weather App)2nd try";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C25BB5DC24E59EE7006542BB /* Build configuration list for PBXProject "ErickP(The Awesome Weather App)2nd try" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25BB60A24E59EE8006542BB /* Debug */,
+				C25BB60B24E59EE8006542BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25BB60C24E59EE8006542BB /* Build configuration list for PBXNativeTarget "ErickP(The Awesome Weather App)2nd try" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25BB60D24E59EE8006542BB /* Debug */,
+				C25BB60E24E59EE8006542BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25BB60F24E59EE8006542BB /* Build configuration list for PBXNativeTarget "ErickP(The Awesome Weather App)2nd tryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25BB61024E59EE8006542BB /* Debug */,
+				C25BB61124E59EE8006542BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25BB61224E59EE8006542BB /* Build configuration list for PBXNativeTarget "ErickP(The Awesome Weather App)2nd tryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25BB61324E59EE8006542BB /* Debug */,
+				C25BB61424E59EE8006542BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C25BB5EB24E59EE7006542BB /* ErickP_The_Awesome_Weather_App_2nd_try.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C25BB5EC24E59EE7006542BB /* ErickP_The_Awesome_Weather_App_2nd_try.xcdatamodel */,
+			);
+			currentVersion = C25BB5EC24E59EE7006542BB /* ErickP_The_Awesome_Weather_App_2nd_try.xcdatamodel */;
+			path = ErickP_The_Awesome_Weather_App_2nd_try.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C25BB5D924E59EE7006542BB /* Project object */;
+}
